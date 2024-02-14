@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  font-family: "Salsa", cursive;
+}
+.jhalar{
+  width:230px;
+  margin-bottom: -130px;
+}
+
+.hero-section{
+  /* min-height: 100vh; */
+  /* background-color: #F99501; */
+  background-image: url(Img/orange-backdrop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section p{
+  font-size: 46px;
+  font-weight: 400;
+  font-family: "Salsa", cursive;
+  max-width: 600px;
+ 
+  
+}
+.paragraph-and-audio{
+   margin-left: 11rem;
+}
+
+.audio-container{
+  margin-top: 20px;
+  background-color:#fbd8a4;
+  max-width: 500px;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+audio::-webkit-media-controls-panel{
+  background-color:#fbd8a4;
+}
+
+/* ----------------------------------------------- */
+
+.laxmi-ganesha{
+  background-color: #f99501;
+  padding-top: 1em;
+  padding-inline: 1rem;
+}
+.laxmi-ganesha-img{
+  
+  max-width:900px;
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+.horizontal-divider{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 900px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+.horizontal-line{
+  width:468px ;
+  height: 2px;
+  background-color: #fbd8a4;
+}
+.circle{
+  width:10px;
+  height: 10px;
+  background-color: #fbd8a4;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.laxmi-ganesha h2{
+  font-size: 54px;
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+.white-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.white-card{
+  max-width: 510px;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 24px;
+}
+.white-card p{
+  font-size: 2rem;
+}
+.little-girl{
+  max-width: 200px;
+  margin-left: -5rem;
+}
+
+.laxmi-ganesha-card{
+  background-color: white;
+  padding: 4rem;
+  border-radius: 24px;
+  max-width: 900px;
+  display: flex;
+  margin-inline: auto;
+}
+.laxmi-ganesha-card img{
+  width: 50%;
+}
+.thank-you-text{
+  width: 100%;
+  max-width: 900px;
+  margin-inline: auto;
+  padding-block: 1rem;
+  padding-left: 0;
+}
+.thank-you-text h2{
+  margin-block: 1rem;
+  text-align: left;
+}
+.laxmi-ganesha-card{
+  padding: 2rem;
+}
+
+@media screen and (max-width:900px){
+  .fir-deepak{
+    display: block;
+    margin-right: auto;
+  }
+  .sec-deepak, .media-none{
+    display: none;
+  }
+  .paragraph-and-audio{
+    margin:0 1rem;
+  }
+  .jhalar{
+    margin-bottom: 0;
+  }
+  .audio-container{
+    max-width: max-content;
+  }
+  .hero-section p{
+    font-size: 32px;
+  }
+  .laxmi-ganesha-img{
+    width: 100%;
+    max-width:900px;
+  }
+  
+}
+
+@media screen and (max-width:540px){
+  .hero-section p{
+    font-size: 24px;
+  }
+  .fir-deepak{
+   width: 100%;
+   max-width:300px;
+  }
+  .laxmi-ganesha h2{
+    font-size: 32px;
+  }
+  .white-card{
+padding-block: 1rem;
+padding-left: 2rem;
+  }
+  .white-card p{
+    font-size: 1rem;
+  }
+
+  .little-girl{
+    width: 100%;
+    max-width: 160px;
+
+  }
+  .thank-you-text p{
+    font-size: 13px;
+  }
+  .thank-you-text h2{
+font-size:20px;
+  }
+}
